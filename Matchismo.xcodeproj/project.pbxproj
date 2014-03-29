@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4E6CBE518E70D6400D87455 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E6CBE418E70D6400D87455 /* Card.m */; };
 		A4E7207618E3C3AF00D9551F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E7207518E3C3AF00D9551F /* Foundation.framework */; };
 		A4E7207818E3C3AF00D9551F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E7207718E3C3AF00D9551F /* CoreGraphics.framework */; };
 		A4E7207A18E3C3AF00D9551F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E7207918E3C3AF00D9551F /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4E6CBE318E70D6400D87455 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		A4E6CBE418E70D6400D87455 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
 		A4E7207218E3C3AF00D9551F /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E7207518E3C3AF00D9551F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4E7207718E3C3AF00D9551F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4E6CBE718E70DBE00D87455 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4E6CBE318E70D6400D87455 /* Card.h */,
+				A4E6CBE418E70D6400D87455 /* Card.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A4E7206918E3C3AF00D9551F = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +127,7 @@
 				A4E7208418E3C3AF00D9551F /* CardGameAppDelegate.h */,
 				A4E7208518E3C3AF00D9551F /* CardGameAppDelegate.m */,
 				A4E7208718E3C3AF00D9551F /* Main.storyboard */,
+				A4E6CBE718E70DBE00D87455 /* Model */,
 				A4E7208A18E3C3AF00D9551F /* CardGameViewController.h */,
 				A4E7208B18E3C3AF00D9551F /* CardGameViewController.m */,
 				A4E7208D18E3C3AF00D9551F /* Images.xcassets */,
@@ -253,6 +266,7 @@
 				A4E7208618E3C3AF00D9551F /* CardGameAppDelegate.m in Sources */,
 				A4E7208C18E3C3AF00D9551F /* CardGameViewController.m in Sources */,
 				A4E7208218E3C3AF00D9551F /* main.m in Sources */,
+				A4E6CBE518E70D6400D87455 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +475,7 @@
 				A4E720A618E3C3AF00D9551F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4E720A718E3C3AF00D9551F /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +484,7 @@
 				A4E720A918E3C3AF00D9551F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
