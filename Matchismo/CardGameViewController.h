@@ -9,12 +9,3 @@
 
 @interface CardGameViewController : UIViewController
 @end
-
-@implementation CardGameViewController
-
-- (IBAction)touchCardButton:(id)sender {
-    UIImage *cardImage = [UIImage imageName:@"stanford_icon"];
-}
-
-
-@end
